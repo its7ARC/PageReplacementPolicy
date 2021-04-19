@@ -77,7 +77,7 @@ void line(){
 
 struct PageTable{
     
-    //2 hashmaps for query find time complexity to be O(logn);
+    //2 hashmaps for page search in page table complexity to be O(logn);
     mii arr_page;
     umii page_arr;
     ll n_pf;
